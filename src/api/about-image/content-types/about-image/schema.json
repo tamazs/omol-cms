@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_images",
+  "info": {
+    "singularName": "about-image",
+    "pluralName": "about-images",
+    "displayName": "About images"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}
